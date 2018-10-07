@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+ 
+    "name": "Color picker",
+    "description": "This extension will change color of background to red",
+    "version": "1.0",
+
+    "icons": { "64": "icon.png"},
+ 
+    "browser_action": {
+        "default_title": "dafault_title",
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png",
+           "128": "icon.png" 
+        },
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "activeTab"
+    ]
+}
